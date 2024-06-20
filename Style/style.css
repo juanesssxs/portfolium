@@ -151,11 +151,9 @@ header{
     height: 10rem;
     border: solid;
     margin-top: 1rem;
-    margin-left: 6rem;
+    margin-left: 7rem;
     border-color: blue;
-    justify-content: center;
     font-size: 20px;
-    
 }
 
 .card-reference h5 {
@@ -188,9 +186,9 @@ header{
 .experiences img{
     width: 2.5rem;
     height: 2.5rem;
-    margin-left: 0.6rem;
     border-radius: 20px;
     margin-bottom: 0.2rem;
+    
 }
 
 .experiences h3{
@@ -214,15 +212,20 @@ header{
 
 .experiences-logos{
     margin-top: 2rem;
+    align-items: center;
 }
 
 .experiences-logos h6{
-    margin-left: 3rem
+    width: 8rem;
+    font-size: 20px;
+    text-align: center;
 }
 
 .experiences-logos img{
     width: 8rem;
+    height: 8rem;
     border-radius: 40px;
+    
 }
 
 .logos{
@@ -251,8 +254,377 @@ header{
     margin-left: 3.5rem;
    }
 
-
-   .container img{
-    margin-left: ;
+   .section-references .card-reference{
+    margin-left: 8rem;
    }
+
+   .experiences-logos h6{
+    width: 9rem;
+    font-size: 20px;
+    text-align: center;
 }
+.experiences-logos{
+    margin-left: 1rem;
+}
+
+.experiences-logos img{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 40px;
+    margin-left: 0.4rem;
+}
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 819px) {
+    .container img{
+        margin-left: 2.6rem;
+        margin-top: 4rem;
+        width: 8rem;
+        height: 10rem;
+    }
+
+    .container h2{
+        font-size: 17px;
+        color: aliceblue;
+        margin-left: 1rem;
+    }
+    
+    .info-header{
+        width: 50%;
+    }
+    
+    .info-header h1{
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        
+    }
+
+   .card-project{
+    margin-left: 4.5rem;
+   }
+
+   .section-references .card-reference{
+    margin-left: 8.5rem;
+   }
+
+   .info-header h1{
+    font-size: 17px;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+.info-header p{
+    width: 90%;
+    font-size: 19px;
+    color: aliceblue;
+    text-align: center;
+   margin-left: 1rem;
+}
+
+.experiences-logos h6{
+    width: 9.2rem;
+    font-size: 20px;
+    text-align: center;
+}
+
+.experiences-logos{
+    margin-left: 2rem;
+}
+
+.experiences-logos img{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 40px;
+    margin-left: 0.9rem;
+}
+}
+@media screen and (min-width: 820px) and (max-width: 1558px){
+
+  
+
+    .container img{
+        margin-left: 5.5rem;
+        margin-top: 2rem;
+        width: 10rem;
+        height: 13rem;
+    }
+
+    .container h2{
+        font-size: 20px;
+        color: aliceblue;
+        margin-left: 1rem;
+    }
+    
+    .info-header{
+        width: 60%;
+
+    }
+    
+    .info-header h1{
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        
+    }
+
+   .card-project{
+    margin-left: 4.5rem;
+   }
+
+   .section-references .card-reference{
+    margin-left: 8.5rem;
+   }
+
+   .info-header h1{
+    
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    
+}
+
+.info-header p{
+    width: 60%;
+    font-size: 21px;
+    color: aliceblue;
+    text-align: center;
+   margin-left: 6rem;
+}
+
+.experiences-logos h6{
+    width: 9.2rem;
+    font-size: 20px;
+    text-align: center;
+}
+
+.experiences-logos{
+    margin-left: 2rem;
+}
+
+.cards-first{
+    display: flex;
+}
+
+.cards-second{
+    display: flex;
+}
+
+.card-project{
+    width: 20rem;
+    height: 9rem;
+    background-color: blue;
+    border-radius: 25px;
+    margin-top: 2rem;
+    margin-left: 2.1rem;
+    display: flex;
+    text-align: center;
+}
+
+.card-project img{
+    width: 8rem;
+    height: 7.5rem;
+    margin-left: 0.6rem;
+    border-radius: 20px;
+    margin-top: 0.7rem;
+}
+
+.card-project h4{
+    color: aliceblue;
+    margin-top: 0.5rem;
+    border-bottom: 0.5rem;
+}
+
+.card-project span{
+    color: aliceblue;
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
+
+.card-reference{
+    width: 50rem;
+}
+
+.cards-references{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 1rem;
+    margin-left: -5rem;
+}
+
+.logos{
+    height: 32rem;
+}
+
+.logos-first{
+    display: flex;
+   
+}
+
+.logos-second{
+    display: flex;
+}
+
+.experiences-logos{
+    margin-right: 8rem;
+}
+
+.progress-container {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 25px;
+    margin-top: 1rem;
+}
+
+.progress-bar {
+    height: 30px;
+    width: 0;
+    background-color: #040460;
+    border-radius: 25px;
+}
+
+.experiences-logos img{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 40px;
+    margin-left: 0.8rem;
+}
+}
+@media screen and (min-width: 1559px){
+
+    body{
+        display:flex ;
+        flex-direction: column;
+    }
+
+    .container img{
+        margin-left: 15rem;
+        margin-top: 2rem;
+        width: 10rem;
+        height: 13rem;
+    }
+
+    .container h2{
+        font-size: 25px;
+        color: aliceblue;
+        margin-left: 1rem;
+    }
+    
+    .info-header{
+        width: 40%;
+
+    }
+    
+    .info-header h1{
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        
+    }
+
+    .info-header h1{
+        font-size: 25px;
+        color: aliceblue;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        
+    }
+    
+    .info-header p{
+        width: 100%;
+        font-size: 28px;
+        color: aliceblue;
+        text-align: center;
+    }
+
+    .cards-project{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content:space-evenly ;
+    }
+
+    .card-project{
+        width: 35rem;
+        height: 13rem;
+        background-color: blue;
+        border-radius: 25px;
+        margin-top: 2rem;
+        margin-left: 2.1rem;
+        display: flex;
+        text-align: center;
+    }
+    
+    .card-project img{
+        width: 12rem;
+        height: 11rem;
+        margin-left: 0.6rem;
+        border-radius: 20px;
+        margin-top: 0.7rem;
+    }
+    
+    .card-project h4{
+        font-size: 25px;
+        color: aliceblue;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .card-project span{
+        color: aliceblue;
+        font-size: 20px;
+        margin-top: 1rem;
+        
+    }
+
+    .card-project p{
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .cards-references{
+        display: flex;
+        margin-top: 1.5rem;
+        justify-content: space-evenly;
+        margin-left: -5rem;
+        font-size: 20px;
+    }
+
+    .card-reference{
+        width: 15rem;
+        height: 15rem;
+        font-size: 2rem;
+    }
+
+    .logos{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .experiences-logos h6{
+        width: 9.2rem;
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    .progress-container {
+        width: 100%;
+        background-color: #e0e0e0;
+        border-radius: 25px;
+        margin-top: 1rem;
+    }
+
+    .experiences-logos img{
+        width: 8rem;
+        height: 8rem;
+        border-radius: 40px;
+        margin-left: 0.7rem;
+    }
+}
+
+
